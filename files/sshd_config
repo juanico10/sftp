@@ -12,6 +12,11 @@ UseDNS no
 PermitRootLogin no
 X11Forwarding no
 AllowTcpForwarding no
+PermitUserEnvironment no
+AllowAgentForwarding no
+PermitTunnel no
+ClientAliveInterval 300
+ClientAliveCountMax 2
 
 # Force sftp and chroot jail
 Subsystem sftp internal-sftp
